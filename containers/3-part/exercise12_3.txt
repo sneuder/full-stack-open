@@ -1,0 +1,7 @@
+docker run -it ubuntu bash
+apt update
+apt install -y nano
+nano /usr/src/app/index.js
+# Adding the line console.log('Hello World');
+# Saving and exiting from Nano
+exit
