@@ -1,0 +1,6 @@
+script script-answers/exercise12_2.txt
+docker run -it ubuntu bash
+mkdir -p /usr/src/app
+echo "console.log('Hello, world!');" > /usr/src/app/index.js
+exit
+
